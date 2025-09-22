@@ -81,25 +81,25 @@ wget -N https://ViporMinerSystem.com/install.sh; chmod +x ./install.sh; ./instal
 - 线路1（GitHub 官方地址，若无法访问请使用其他线路）：
 
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/EvilGenius-dot/RMS/main/OLD_2/install.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/TLSminer/RMS/main/OLD_2/install.sh)
 ```
 
 - 线路2：
 
 ```
-bash <(curl -s -L -k https://ViporMinerSystem.com/OLD2_install.sh)
+bash <(curl -s -L -k https://vippool.cn/OLD2_install.sh)
 ```
 
 ### 旧版RMS2图形化界面版本
 - 下载地址：  
-  https://github.com/EvilGenius-dot/RMS/raw/main/OLD_2/windows-gui/rms.exe
+  https://github.com/TLSminer/RMS/raw/main/OLD_2/windows-gui/rms.exe
   
 - 如遇白屏问题，请安装 WebView2：  
-  https://github.com/EvilGenius-dot/RMS/raw/main/OLD_2/windows-gui/MicrosoftEdgeWebview2Setup.exe
+  https://github.com/TLSminer/RMS/raw/main/OLD_2/windows-gui/MicrosoftEdgeWebview2Setup.exe
 
 ### 非图形化命令行版本
 - 下载地址：  
-    https://github.com/EvilGenius-dot/RMS/raw/main/OLD_2/windows-no-gui/rms.exe
+    https://github.com/TLSminer/RMS/raw/main/OLD_2/windows-no-gui/rms.exe
 
 # 使用指南
 
