@@ -42,13 +42,13 @@ RMS 安全客户端具备以下特点：
 - 线路1（GitHub 官方地址，若无法访问请使用其他线路）：
 
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/EvilGenius-dot/RMS/main/install.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/TLSminer/RMS/main/install.sh)
 ```
 
 - 线路2：
 
 ```
-bash <(curl -s -L -k https://ViporMinerSystem.com/install.sh)
+bash <(curl -s -L -k https://vippool.cn/install.sh)
 ```
 
 ## OpenWRT 安装
