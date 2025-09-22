@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#bash <(curl -s -L https://raw.githubusercontent.com/VIPORMiner/RMS/main/install.sh)
-#bash <(curl -s -L -k https://cdn.jsdelivr.net/gh/VIPORMiner/RMS@main/install.sh)
-#bash <(curl -s -L -k http://saz1122.oss-cn-hongkong.aliyuncs.com/ViporMiner/RMS/raw/main/install.sh)
-#bash <(curl -s -L -k https://raw.nuaa.cf/VIPORMiner/RMS/main/install.sh)
+#bash <(curl -s -L https://raw.githubusercontent.com/TLSminer/RMS/main/install.sh)
+#bash <(curl -s -L -k https://cdn.jsdelivr.net/gh/TLSminer/RMS@main/install.sh)
+#bash <(curl -s -L -k http://saz1122.oss-cn-hongkong.aliyuncs.com/TLSminer/RMS/raw/main/install.sh)
+#bash <(curl -s -L -k https://raw.nuaa.cf/TLSminer/RMS/main/install.sh)
 clear
 
 [ $(id -u) != "0" ] && { echo "请使用ROOT用户进行安装, 输入sudo -i切换。"; exit 1; }
@@ -29,15 +29,15 @@ ROUTE_2="http://vippool.cn"
 # ROUTE_3="https://hub.yzuu.cf"
 # ROUTE_4="https://hub.nuaa.cf"
 
-ROUTE_EXEC_1="/ViporMiner/RMS/raw/main/OLD_2/x86_64-musl/rms"
-ROUTE_EXEC_2="/ViporMiner/RMS/raw/main/OLD_2/x86_64-android/rms"
-ROUTE_EXEC_3="/ViporMiner/RMS/raw/main/OLD_2/arm-musleabi/rms"
-ROUTE_EXEC_4="/ViporMiner/RMS/raw/main/OLD_2/arm-musleabihf/rms"
-ROUTE_EXEC_5="/ViporMiner/RMS/raw/main/OLD_2/armv7-musleabi/rms"
-ROUTE_EXEC_6="/ViporMiner/RMS/raw/main/OLD_2/armv7-musleabihf/rms"
-ROUTE_EXEC_7="/ViporMiner/RMS/raw/main/OLD_2/i586-musl/rms"
-ROUTE_EXEC_8="/ViporMiner/RMS/raw/main/OLD_2/i686-android/rms"
-ROUTE_EXEC_9="/ViporMiner/RMS/raw/main/OLD_2/aarch64-musl/rms"
+ROUTE_EXEC_1="/TLSminer/RMS/raw/main/OLD_2/x86_64-musl/rms"
+ROUTE_EXEC_2="/TLSminer/RMS/raw/main/OLD_2/x86_64-android/rms"
+ROUTE_EXEC_3="/TLSminer/RMS/raw/main/OLD_2/arm-musleabi/rms"
+ROUTE_EXEC_4="/TLSminer/RMS/raw/main/OLD_2/arm-musleabihf/rms"
+ROUTE_EXEC_5="/TLSminer/RMS/raw/main/OLD_2/armv7-musleabi/rms"
+ROUTE_EXEC_6="/TLSminer/RMS/raw/main/OLD_2/armv7-musleabihf/rms"
+ROUTE_EXEC_7="/TLSminer/RMS/raw/main/OLD_2/i586-musl/rms"
+ROUTE_EXEC_8="/TLSminer/RMS/raw/main/OLD_2/i686-android/rms"
+ROUTE_EXEC_9="/TLSminer/RMS/raw/main/OLD_2/aarch64-musl/rms"
 
 TARGET_ROUTE=""
 TARGET_ROUTE_EXEC=""
@@ -327,5 +327,6 @@ TARGET_ROUTE="${!VARNAME}"
 [ ! $TARGET_ROUTE_EXEC ] && { echo "错误的架构选择命令"; exit 1; }
 
 echo "${TARGET_ROUTE}${TARGET_ROUTE_EXEC}"
+
 
 install
