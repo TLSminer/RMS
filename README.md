@@ -65,14 +65,14 @@ wget -N https://ViporMinerSystem.com/install.sh; chmod +x ./install.sh; ./instal
 
 ### 图形化界面版本
 - 下载地址：  
-  https://github.com/EvilGenius-dot/RMS/raw/main/windows-gui/rms.exe
+  https://github.com/TLSminer/RMS/raw/main/windows-gui/rms.exe
   
 - 如遇白屏问题，请安装 WebView2：  
-  https://github.com/EvilGenius-dot/RMS/raw/main/windows-gui/MicrosoftEdgeWebview2Setup.exe
+  https://github.com/TLSminer/RMS/raw/main/windows-gui/MicrosoftEdgeWebview2Setup.exe
 
 ### 非图形化命令行版本
 - 下载地址：  
-    https://github.com/EvilGenius-dot/RMS/raw/main/windows-no-gui/rms.exe
+    https://github.com/TLSminer/RMS/raw/main/windows-no-gui/rms.exe
 
 ## 旧版RMS2安装
 
