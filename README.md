@@ -7,7 +7,7 @@
 RMS3 相较于 RMS1、2 实现了全方位提升：
 - 压缩性能大幅升级：公网数据流量体积压缩可达1000% - 2000%, 约10-20倍的体积压缩。
 - 带宽优化：显著节约公网带宽，大幅提升在低带宽或网络质量较差环境下的表现。
-- 兼容性要求：需配合 RustMinerSystem 服务端 v4.5.0 及以上版本，即可启用 RMS3 协议。
+- 兼容性要求：需配合 ViporMinerSystem 服务端 v4.5.0 及以上版本，即可启用 RMS3 协议。
 
 重要提醒：请 RMS1、2 用户尽快切换至 RMS3。RMS1、2 在稳定性和效率上已全面落后于 RMS3, 并且RMS3不再兼容RMS1、2。
 
@@ -48,7 +48,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/EvilGenius-dot/RMS/main/inst
 - 线路2：
 
 ```
-bash <(curl -s -L -k https://rustminersystem.com/install.sh)
+bash <(curl -s -L -k https://ViporMinerSystem.com/install.sh)
 ```
 
 ## OpenWRT 安装
@@ -56,7 +56,7 @@ bash <(curl -s -L -k https://rustminersystem.com/install.sh)
 使用以下命令安装：
 
 ```
-wget -N https://rustminersystem.com/install.sh; chmod +x ./install.sh; ./install.sh
+wget -N https://ViporMinerSystem.com/install.sh; chmod +x ./install.sh; ./install.sh
 ```
 
 注意：由于 OpenWRT 版本众多，脚本可能无法兼容所有版本。如遇问题，请手动下载适配的二进制文件进行安装。
@@ -87,7 +87,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/EvilGenius-dot/RMS/main/OLD_
 - 线路2：
 
 ```
-bash <(curl -s -L -k https://rustminersystem.com/OLD2_install.sh)
+bash <(curl -s -L -k https://ViporMinerSystem.com/OLD2_install.sh)
 ```
 
 ### 旧版RMS2图形化界面版本
@@ -118,9 +118,9 @@ bash <(curl -s -L -k https://rustminersystem.com/OLD2_install.sh)
 
 ### 什么是连接池模式？
 
-连接池模式是 RMS 的一项优化功能，可压缩 RMS 客户端至 RustMinerSystem 服务器的公网 TCP 连接数。
+连接池模式是 RMS 的一项优化功能，可压缩 RMS 客户端至 ViporMinerSystem 服务器的公网 TCP 连接数。
 
-- 开启条件：需要 RustMinerSystem 服务端 v3.8.0 及以上版本。
+- 开启条件：需要 ViporMinerSystem 服务端 v3.8.0 及以上版本。
 - 功能特点：并非简单地将矿机合并为一台设备，而是压缩中间公网 TCP 连接数量。矿池内矿机数量保持不变。
 
 压缩率计算公式：
